@@ -1,341 +1,0 @@
-TSimpleNOAA
-v7
-r0
-t352577380.697421
-cCheck dependencies
-cProcessInfoPlistFile /Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator/SimpleNOAA.app/Info.plist SimpleNOAA-Info.plist
-cCompileXIB /Users/avocado/code/ios/SimpleNOAA/MainWindow.xib
-cProcessPCH /var/folders/n9/n93KTfcLFgG49IwcumYIh++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleNOAA_Prefix-dnjbjpnlqlbpymdxnglapqssvqaf/SimpleNOAA_Prefix.pch.gch SimpleNOAA_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/Objects-normal/i386/main.o /Users/avocado/code/ios/SimpleNOAA/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/Objects-normal/i386/SimpleNOAAAppDelegate.o /Users/avocado/code/ios/SimpleNOAA/Classes/SimpleNOAAAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/Objects-normal/i386/WeatherListController.o /Users/avocado/code/ios/SimpleNOAA/Classes/WeatherListController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/Objects-normal/i386/WeatherService.o /Users/avocado/code/ios/SimpleNOAA/Classes/WeatherService.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/Objects-normal/i386/ForecastParser.o /Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator/SimpleNOAA.app/SimpleNOAA normal i386
-cGenerateDSYMFile /Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator/SimpleNOAA.app.dSYM /Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator/SimpleNOAA.app/SimpleNOAA
-cTouch /Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator/SimpleNOAA.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
-c000000004D5C9B4E0000000000000110
-t1297914702
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004D54CFFA00000000002999B0
-t1297403898
-s2726320
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004D54CFE5000000000029DA70
-t1297403877
-s2742896
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004D54CFB80000000000001466
-t1297403832
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004D5615B40000000000000AA1
-t1297487284
-s2721
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004D5616030000000000766870
-t1297487363
-s7759984
-
-N/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.h
-c000000004F52D54700000000000001D3
-t1330828615
-s467
-i<Foundation/Foundation.h>
-
-N/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m
-c000000004F538A080000000000002918
-t1330874888
-s10520
-i"ForecastParser.h"
-
-N/Users/avocado/code/ios/SimpleNOAA/Classes/SimpleNOAAAppDelegate.h
-c000000004F53AF7F0000000000000152
-t1330884479
-s338
-i<UIKit/UIKit.h>
-
-N/Users/avocado/code/ios/SimpleNOAA/Classes/SimpleNOAAAppDelegate.m
-c000000004F53AFD70000000000000B02
-t1330884567
-s2818
-i"SimpleNOAAAppDelegate.h"
-i"WeatherListController.h"
-
-N/Users/avocado/code/ios/SimpleNOAA/Classes/WeatherListController.h
-c000000004F53AF0E0000000000000165
-t1330884366
-s357
-i<UIKit/UIKit.h>
-i"WeatherService.h"
-
-N/Users/avocado/code/ios/SimpleNOAA/Classes/WeatherListController.m
-c000000004F53AF0E0000000000001A38
-t1330884366
-s6712
-i"WeatherListController.h"
-i"WeatherService.h"
-i"ForecastParser.h"
-
-N/Users/avocado/code/ios/SimpleNOAA/Classes/WeatherService.h
-c000000004F52A0620000000000000146
-t1330815074
-s326
-i<Foundation/Foundation.h>
-
-N/Users/avocado/code/ios/SimpleNOAA/Classes/WeatherService.m
-c000000004F52A0620000000000000C14
-t1330815074
-s3092
-i"WeatherService.h"
-i"ForecastParser.h"
-
-N/Users/avocado/code/ios/SimpleNOAA/MainWindow.xib
-c000000004F53AF7F0000000000002117
-t1330884479
-s8471
-
-N/Users/avocado/code/ios/SimpleNOAA/SimpleNOAA_Prefix.pch
-c000000004F53AF7F00000000000000BD
-t1330884479
-s189
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator/SimpleNOAA.app
-t1330884569
-s204
-
-N/Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator/SimpleNOAA.app.dSYM
-t1330884569
-s102
-
-N/Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator/SimpleNOAA.app/Info.plist
-t1330884567
-s603
-
-N/Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator/SimpleNOAA.app/MainWindow.nib
-t1330884568
-s1534
-
-N/Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator/SimpleNOAA.app/PkgInfo
-t1330884567
-s8
-
-N/Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator/SimpleNOAA.app/SimpleNOAA
-t1330884569
-s36060
-
-N/Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/Objects-normal/i386/ForecastParser.o
-t1330884569
-s32084
-
-N/Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/Objects-normal/i386/SimpleNOAA.LinkFileList
-c000000004F53AFD700000000000002A2
-t1330884567
-s674
-
-N/Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/Objects-normal/i386/SimpleNOAAAppDelegate.o
-t1330884569
-s51360
-
-N/Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/Objects-normal/i386/WeatherListController.o
-t1330884569
-s50068
-
-N/Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/Objects-normal/i386/WeatherService.o
-t1330884569
-s15788
-
-N/Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/Objects-normal/i386/main.o
-t1330884569
-s6304
-
-N/Users/avocado/code/ios/SimpleNOAA/main.m
-c000000004F53AF7F000000000000016E
-t1330884479
-s366
-i<UIKit/UIKit.h>
-
-N/var/folders/n9/n93KTfcLFgG49IwcumYIh++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleNOAA_Prefix-dnjbjpnlqlbpymdxnglapqssvqaf/SimpleNOAA_Prefix.pch.gch
-t1330884569
-s15814064
-
-NSimpleNOAA-Info.plist
-c000000004F53AF7F000000000000038D
-t1330884479
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies352577380#352577380#0(0"0(0#1#0"8617494336#0"0#
-
-CCompileC build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/Objects-normal/i386/ForecastParser.o /Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s352577369.271687
-e352577369.371029
-r1
-xCompileC
-xbuild/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/Objects-normal/i386/ForecastParser.o
-x/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m: In function '-[ForecastParser parser:didStartElement:namespaceURI:qualifiedName:attributes:]':
-o/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:91: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type
-o/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:104: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type
-o/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:108: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type
-o/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:112: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type
-o/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:115: warning: format not a string literal and no format arguments
-o/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:126: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type
-o/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:136: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type
-o/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:141: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type
-o/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:144: warning: format not a string literal and no format arguments
-o/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:156: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type
-o/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:161: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type
-o/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:165: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type
-o/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:171: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type
-o/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:182: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type
-o/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:186: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type
-o/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:191: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type
-o/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m: In function '-[ForecastParser parser:didEndElement:namespaceURI:qualifiedName:]':
-o/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:203: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type
-o/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:207: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type
-o/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:211: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type
-o/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:215: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type
-o/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:219: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type
-o/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:223: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type
-o/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:227: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type
-o/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:231: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type
-o/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:231: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type
-o/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:239: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type
-o/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:253: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type
-o/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:267: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type
-o/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m: In function '-[ForecastParser parser:resolveExternalEntityName:systemID:]':
-o/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:302: warning: control reaches end of non-void function
-o/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m: At top level:
-o/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:17: warning: 'Tonight' defined but not used
-o/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:20: warning: 'MaximumTemp' defined but not used
-o/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:30: warning: 'TimeLayoutKeyAttribute' defined but not used
-lSLF07#2@67"Compile /Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m352577369#352577369#0(5160"/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m: In function '-[ForecastParser parser:didStartElement:namespaceURI:qualifiedName:attributes:]':/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:91: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:104: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:108: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:112: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:115: warning: format not a string literal and no format arguments/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:126: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:136: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:141: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:144: warning: format not a string literal and no format arguments/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:156: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:161: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:165: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:171: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:182: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:186: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:191: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m: In function '-[ForecastParser parser:didEndElement:namespaceURI:qualifiedName:]':/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:203: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:207: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:211: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:215: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:219: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:223: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:227: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:231: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:231: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:239: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:253: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:267: warning: passing argument 1 of 'compare:' discards qualifiers from pointer target type/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m: In function '-[ForecastParser parser:resolveExternalEntityName:systemID:]':/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:302: warning: control reaches end of non-void function/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m: At top level:/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:17: warning: 'Tonight' defined but not used/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:20: warning: 'MaximumTemp' defined but not used/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m:30: warning: 'TimeLayoutKeyAttribute' defined but not used33(22@77"Passing argument 1 of 'compare:' discards qualifiers from pointer target type352577369#156#151#0(6@59"/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m352567688#91#0#91#0#70"passing argument * of '*' discards qualifiers from pointer target type0(22@77"Passing argument 1 of 'compare:' discards qualifiers from pointer target type352577369#307#152#0(6@59"/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m352567688#104#0#104#0#70"passing argument * of '*' discards qualifiers from pointer target type0(22@77"Passing argument 1 of 'compare:' discards qualifiers from pointer target type352577369#459#152#0(6@59"/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m352567688#108#0#108#0#70"passing argument * of '*' discards qualifiers from pointer target type0(22@77"Passing argument 1 of 'compare:' discards qualifiers from pointer target type352577369#611#152#0(6@59"/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m352567688#112#0#112#0#70"passing argument * of '*' discards qualifiers from pointer target type0(22@51"Format not a string literal and no format arguments352577369#763#126#0(6@59"/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m352567688#115#0#115#0#51"format not a string literal and no format arguments0(22@77"Passing argument 1 of 'compare:' discards qualifiers from pointer target type352577369#889#152#0(6@59"/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m352567688#126#0#126#0#70"passing argument * of '*' discards qualifiers from pointer target type0(22@77"Passing argument 1 of 'compare:' discards qualifiers from pointer target type352577369#1041#152#0(6@59"/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m352567688#136#0#136#0#70"passing argument * of '*' discards qualifiers from pointer target type0(22@77"Passing argument 1 of 'compare:' discards qualifiers from pointer target type352577369#1193#152#0(6@59"/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m352567688#141#0#141#0#70"passing argument * of '*' discards qualifiers from pointer target type0(22@51"Format not a string literal and no format arguments352577369#1345#126#0(6@59"/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m352567688#144#0#144#0#51"format not a string literal and no format arguments0(22@77"Passing argument 1 of 'compare:' discards qualifiers from pointer target type352577369#1471#152#0(6@59"/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m352567688#156#0#156#0#70"passing argument * of '*' discards qualifiers from pointer target type0(22@77"Passing argument 1 of 'compare:' discards qualifiers from pointer target type352577369#1623#152#0(6@59"/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m352567688#161#0#161#0#70"passing argument * of '*' discards qualifiers from pointer target type0(22@77"Passing argument 1 of 'compare:' discards qualifiers from pointer target type352577369#1775#152#0(6@59"/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m352567688#165#0#165#0#70"passing argument * of '*' discards qualifiers from pointer target type0(22@77"Passing argument 1 of 'compare:' discards qualifiers from pointer target type352577369#1927#152#0(6@59"/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m352567688#171#0#171#0#70"passing argument * of '*' discards qualifiers from pointer target type0(22@77"Passing argument 1 of 'compare:' discards qualifiers from pointer target type352577369#2079#152#0(6@59"/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m352567688#182#0#182#0#70"passing argument * of '*' discards qualifiers from pointer target type0(22@77"Passing argument 1 of 'compare:' discards qualifiers from pointer target type352577369#2231#152#0(6@59"/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m352567688#186#0#186#0#70"passing argument * of '*' discards qualifiers from pointer target type0(22@77"Passing argument 1 of 'compare:' discards qualifiers from pointer target type352577369#2383#152#0(6@59"/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m352567688#191#0#191#0#70"passing argument * of '*' discards qualifiers from pointer target type0(22@77"Passing argument 1 of 'compare:' discards qualifiers from pointer target type352577369#2678#152#0(6@59"/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m352567688#203#0#203#0#70"passing argument * of '*' discards qualifiers from pointer target type0(22@77"Passing argument 1 of 'compare:' discards qualifiers from pointer target type352577369#2830#152#0(6@59"/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m352567688#207#0#207#0#70"passing argument * of '*' discards qualifiers from pointer target type0(22@77"Passing argument 1 of 'compare:' discards qualifiers from pointer target type352577369#2982#152#0(6@59"/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m352567688#211#0#211#0#70"passing argument * of '*' discards qualifiers from pointer target type0(22@77"Passing argument 1 of 'compare:' discards qualifiers from pointer target type352577369#3134#152#0(6@59"/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m352567688#215#0#215#0#70"passing argument * of '*' discards qualifiers from pointer target type0(22@77"Passing argument 1 of 'compare:' discards qualifiers from pointer target type352577369#3286#152#0(6@59"/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m352567688#219#0#219#0#70"passing argument * of '*' discards qualifiers from pointer target type0(22@77"Passing argument 1 of 'compare:' discards qualifiers from pointer target type352577369#3438#152#0(6@59"/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m352567688#223#0#223#0#70"passing argument * of '*' discards qualifiers from pointer target type0(22@77"Passing argument 1 of 'compare:' discards qualifiers from pointer target type352577369#3590#152#0(6@59"/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m352567688#227#0#227#0#70"passing argument * of '*' discards qualifiers from pointer target type0(22@77"Passing argument 1 of 'compare:' discards qualifiers from pointer target type352577369#3742#152#0(6@59"/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m352567688#231#0#231#0#70"passing argument * of '*' discards qualifiers from pointer target type0(22@77"Passing argument 1 of 'compare:' discards qualifiers from pointer target type352577369#3894#152#0(6@59"/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m352567688#231#0#231#0#70"passing argument * of '*' discards qualifiers from pointer target type0(22@77"Passing argument 1 of 'compare:' discards qualifiers from pointer target type352577369#4046#152#0(6@59"/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m352567688#239#0#239#0#70"passing argument * of '*' discards qualifiers from pointer target type0(22@77"Passing argument 1 of 'compare:' discards qualifiers from pointer target type352577369#4198#152#0(6@59"/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m352567688#253#0#253#0#70"passing argument * of '*' discards qualifiers from pointer target type0(22@77"Passing argument 1 of 'compare:' discards qualifiers from pointer target type352577369#4350#152#0(6@59"/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m352567688#267#0#267#0#70"passing argument * of '*' discards qualifiers from pointer target type0(22@40"Control reaches end of non-void function352577369#4639#115#0(6@59"/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m352567688#302#0#302#0#40"control reaches end of non-void function0(23@13"At top level:352577369#4754#75#0(6@59"/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m352567688#0#0#0#0#0"0(22@30"'Tonight' defined but not used352577369#4829#104#0(6@59"/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m352567688#17#0#17#0#24"'*' defined but not used0(22@34"'MaximumTemp' defined but not used352577369#4933#108#0(6@59"/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m352567688#20#0#20#0#24"'*' defined but not used0(22@45"'TimeLayoutKeyAttribute' defined but not used352577369#5041#119#0(6@59"/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m352567688#30#0#30#0#24"'*' defined but not used0(0#0#59"/Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m8620545856#1958"    cd /Users/avocado/code/ios/SimpleNOAA    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/SimpleNOAA-generated-files.hmap -I/Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/SimpleNOAA-own-target-headers.hmap -I/Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/SimpleNOAA-all-target-headers.hmap -iquote /Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/SimpleNOAA-project-headers.hmap -F/Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator -I/Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator/include -I/Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/DerivedSources/i386 -I/Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/DerivedSources -include /var/folders/n9/n93KTfcLFgG49IwcumYIh++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleNOAA_Prefix-dnjbjpnlqlbpymdxnglapqssvqaf/SimpleNOAA_Prefix.pch -c /Users/avocado/code/ios/SimpleNOAA/Classes/ForecastParser.m -o /Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/Objects-normal/i386/ForecastParser.o0#
-
-CCompileC build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/Objects-normal/i386/SimpleNOAAAppDelegate.o /Users/avocado/code/ios/SimpleNOAA/Classes/SimpleNOAAAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s352577369.105953
-e352577369.205337
-r1
-xCompileC
-xbuild/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/Objects-normal/i386/SimpleNOAAAppDelegate.o
-x/Users/avocado/code/ios/SimpleNOAA/Classes/SimpleNOAAAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/avocado/code/ios/SimpleNOAA/Classes/SimpleNOAAAppDelegate.m352577369#352577369#0(0"0(0#0#66"/Users/avocado/code/ios/SimpleNOAA/Classes/SimpleNOAAAppDelegate.m8620888160#1972"    cd /Users/avocado/code/ios/SimpleNOAA    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/SimpleNOAA-generated-files.hmap -I/Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/SimpleNOAA-own-target-headers.hmap -I/Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/SimpleNOAA-all-target-headers.hmap -iquote /Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/SimpleNOAA-project-headers.hmap -F/Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator -I/Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator/include -I/Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/DerivedSources/i386 -I/Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/DerivedSources -include /var/folders/n9/n93KTfcLFgG49IwcumYIh++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleNOAA_Prefix-dnjbjpnlqlbpymdxnglapqssvqaf/SimpleNOAA_Prefix.pch -c /Users/avocado/code/ios/SimpleNOAA/Classes/SimpleNOAAAppDelegate.m -o /Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/Objects-normal/i386/SimpleNOAAAppDelegate.o0#
-
-CCompileC build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/Objects-normal/i386/WeatherListController.o /Users/avocado/code/ios/SimpleNOAA/Classes/WeatherListController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s352577369.168560
-e352577369.271457
-r1
-xCompileC
-xbuild/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/Objects-normal/i386/WeatherListController.o
-x/Users/avocado/code/ios/SimpleNOAA/Classes/WeatherListController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/avocado/code/ios/SimpleNOAA/Classes/WeatherListController.m352577369#352577369#0(0"0(0#0#66"/Users/avocado/code/ios/SimpleNOAA/Classes/WeatherListController.m8619159200#1972"    cd /Users/avocado/code/ios/SimpleNOAA    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/SimpleNOAA-generated-files.hmap -I/Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/SimpleNOAA-own-target-headers.hmap -I/Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/SimpleNOAA-all-target-headers.hmap -iquote /Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/SimpleNOAA-project-headers.hmap -F/Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator -I/Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator/include -I/Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/DerivedSources/i386 -I/Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/DerivedSources -include /var/folders/n9/n93KTfcLFgG49IwcumYIh++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleNOAA_Prefix-dnjbjpnlqlbpymdxnglapqssvqaf/SimpleNOAA_Prefix.pch -c /Users/avocado/code/ios/SimpleNOAA/Classes/WeatherListController.m -o /Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/Objects-normal/i386/WeatherListController.o0#
-
-CCompileC build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/Objects-normal/i386/WeatherService.o /Users/avocado/code/ios/SimpleNOAA/Classes/WeatherService.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s352577369.205465
-e352577369.295324
-r1
-xCompileC
-xbuild/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/Objects-normal/i386/WeatherService.o
-x/Users/avocado/code/ios/SimpleNOAA/Classes/WeatherService.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/avocado/code/ios/SimpleNOAA/Classes/WeatherService.m: In function '-[WeatherService loadForecast]':
-o/Users/avocado/code/ios/SimpleNOAA/Classes/WeatherService.m:45: warning: class 'ForecastParser' does not implement the 'NSXMLParserDelegate' protocol
-o/Users/avocado/code/ios/SimpleNOAA/Classes/WeatherService.m:48: warning: incompatible Objective-C types assigning 'struct NSString *', expected 'struct NSArray *'
-lSLF07#2@67"Compile /Users/avocado/code/ios/SimpleNOAA/Classes/WeatherService.m352577369#352577369#0(420"/Users/avocado/code/ios/SimpleNOAA/Classes/WeatherService.m: In function '-[WeatherService loadForecast]':/Users/avocado/code/ios/SimpleNOAA/Classes/WeatherService.m:45: warning: class 'ForecastParser' does not implement the 'NSXMLParserDelegate' protocol/Users/avocado/code/ios/SimpleNOAA/Classes/WeatherService.m:48: warning: incompatible Objective-C types assigning 'struct NSString *', expected 'struct NSArray *'2(22@76"Class 'ForecastParser' does not implement the 'NSXMLParserDelegate' protocol352577369#107#150#0(6@59"/Users/avocado/code/ios/SimpleNOAA/Classes/WeatherService.m352507874#45#0#45#0#45"class '*' does not implement the '*' protocol0(22@89"Incompatible Objective-C types assigning 'struct NSString *', expected 'struct NSArray *'352577369#257#163#0(6@59"/Users/avocado/code/ios/SimpleNOAA/Classes/WeatherService.m352507874#48#0#48#0#58"incompatible Objective-C types assigning '*', expected '*'0(0#0#59"/Users/avocado/code/ios/SimpleNOAA/Classes/WeatherService.m8617921312#1958"    cd /Users/avocado/code/ios/SimpleNOAA    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/SimpleNOAA-generated-files.hmap -I/Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/SimpleNOAA-own-target-headers.hmap -I/Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/SimpleNOAA-all-target-headers.hmap -iquote /Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/SimpleNOAA-project-headers.hmap -F/Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator -I/Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator/include -I/Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/DerivedSources/i386 -I/Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/DerivedSources -include /var/folders/n9/n93KTfcLFgG49IwcumYIh++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleNOAA_Prefix-dnjbjpnlqlbpymdxnglapqssvqaf/SimpleNOAA_Prefix.pch -c /Users/avocado/code/ios/SimpleNOAA/Classes/WeatherService.m -o /Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/Objects-normal/i386/WeatherService.o0#
-
-CCompileC build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/Objects-normal/i386/main.o /Users/avocado/code/ios/SimpleNOAA/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s352577369.104360
-e352577369.168445
-r1
-xCompileC
-xbuild/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/Objects-normal/i386/main.o
-x/Users/avocado/code/ios/SimpleNOAA/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@49"Compile /Users/avocado/code/ios/SimpleNOAA/main.m352577369#352577369#0(0"0(0#0#41"/Users/avocado/code/ios/SimpleNOAA/main.m8620424096#1930"    cd /Users/avocado/code/ios/SimpleNOAA    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/SimpleNOAA-generated-files.hmap -I/Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/SimpleNOAA-own-target-headers.hmap -I/Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/SimpleNOAA-all-target-headers.hmap -iquote /Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/SimpleNOAA-project-headers.hmap -F/Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator -I/Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator/include -I/Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/DerivedSources/i386 -I/Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/DerivedSources -include /var/folders/n9/n93KTfcLFgG49IwcumYIh++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleNOAA_Prefix-dnjbjpnlqlbpymdxnglapqssvqaf/SimpleNOAA_Prefix.pch -c /Users/avocado/code/ios/SimpleNOAA/main.m -o /Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/avocado/code/ios/SimpleNOAA/MainWindow.xib
-s352577367.909576
-e352577368.396784
-r1
-xCompileXIB
-x/Users/avocado/code/ios/SimpleNOAA/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib352577367#352577368#0(0"0(0#0#49"/Users/avocado/code/ios/SimpleNOAA/MainWindow.xib8617904032#561"    cd /Users/avocado/code/ios/SimpleNOAA    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator/SimpleNOAA.app/MainWindow.nib /Users/avocado/code/ios/SimpleNOAA/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
-
-CGenerateDSYMFile /Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator/SimpleNOAA.app.dSYM /Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator/SimpleNOAA.app/SimpleNOAA
-s352577369.400619
-e352577369.426312
-r1
-xGenerateDSYMFile
-x/Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator/SimpleNOAA.app.dSYM
-x/Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator/SimpleNOAA.app/SimpleNOAA
-lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/SimpleNOAA.app.dSYM build/Debug-iphonesimulator/SimpleNOAA.app/SimpleNOAA352577369#352577369#0(0"0(0#0#88"/Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator/SimpleNOAA.app/SimpleNOAA8620722208#380"    cd /Users/avocado/code/ios/SimpleNOAA    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator/SimpleNOAA.app/SimpleNOAA -o /Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator/SimpleNOAA.app.dSYM0#
-
-CLd /Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator/SimpleNOAA.app/SimpleNOAA normal i386
-s352577369.371130
-e352577369.400521
-r1
-xLd
-x/Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator/SimpleNOAA.app/SimpleNOAA
-xnormal
-xi386
-lSLF07#2@93"Link /Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator/SimpleNOAA.app/SimpleNOAA352577369#352577369#0(0"0(0#0#0"8620547520#895"    cd /Users/avocado/code/ios/SimpleNOAA    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator -F/Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator -filelist /Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/Objects-normal/i386/SimpleNOAA.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator/SimpleNOAA.app/SimpleNOAA0#
-
-CProcessInfoPlistFile /Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator/SimpleNOAA.app/Info.plist SimpleNOAA-Info.plist
-s352577367.902118
-e352577367.909490
-r1
-xProcessInfoPlistFile
-x/Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator/SimpleNOAA.app/Info.plist
-xSimpleNOAA-Info.plist
-lSLF07#2@29"Process SimpleNOAA-Info.plist352577367#352577367#0(0"0(0#0#56"/Users/avocado/code/ios/SimpleNOAA/SimpleNOAA-Info.plist8620438080#476"    cd /Users/avocado/code/ios/SimpleNOAA    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SimpleNOAA-Info.plist -genpkginfo /Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator/SimpleNOAA.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator/SimpleNOAA.app/Info.plist0#
-
-CProcessPCH /var/folders/n9/n93KTfcLFgG49IwcumYIh++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleNOAA_Prefix-dnjbjpnlqlbpymdxnglapqssvqaf/SimpleNOAA_Prefix.pch.gch SimpleNOAA_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s352577368.396903
-e352577369.104232
-r1
-xProcessPCH
-x/var/folders/n9/n93KTfcLFgG49IwcumYIh++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleNOAA_Prefix-dnjbjpnlqlbpymdxnglapqssvqaf/SimpleNOAA_Prefix.pch.gch
-xSimpleNOAA_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@32"Precompile SimpleNOAA_Prefix.pch352577368#352577369#0(0"0(0#0#56"/Users/avocado/code/ios/SimpleNOAA/SimpleNOAA_Prefix.pch8618303648#1823"    cd /Users/avocado/code/ios/SimpleNOAA    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/SimpleNOAA-generated-files.hmap -I/Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/SimpleNOAA-own-target-headers.hmap -I/Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/SimpleNOAA-all-target-headers.hmap -iquote /Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/SimpleNOAA-project-headers.hmap -F/Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator -I/Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator/include -I/Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/DerivedSources/i386 -I/Users/avocado/code/ios/SimpleNOAA/build/SimpleNOAA.build/Debug-iphonesimulator/SimpleNOAA.build/DerivedSources -c /Users/avocado/code/ios/SimpleNOAA/SimpleNOAA_Prefix.pch -o /var/folders/n9/n93KTfcLFgG49IwcumYIh++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleNOAA_Prefix-dnjbjpnlqlbpymdxnglapqssvqaf/SimpleNOAA_Prefix.pch.gch0#
-
-CTouch /Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator/SimpleNOAA.app
-s352577369.426469
-e352577369.429354
-r1
-xTouch
-x/Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator/SimpleNOAA.app
-lSLF07#2@83"Touch /Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator/SimpleNOAA.app352577369#352577369#0(0"0(0#0#0"8621087360#273"    cd /Users/avocado/code/ios/SimpleNOAA    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/avocado/code/ios/SimpleNOAA/build/Debug-iphonesimulator/SimpleNOAA.app0#
-
