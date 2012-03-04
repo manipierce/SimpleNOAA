@@ -1,0 +1,69 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* SimpleNOAA */ = {
+		activeExec = 0;
+		executables = (
+			1ED22A791503E6FF006409BE /* SimpleNOAA */,
+		);
+	};
+	1ED22A791503E6FF006409BE /* SimpleNOAA */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SimpleNOAA;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	1ED22A7D1503E71D006409BE /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	1ED22A7E1503E71D006409BE /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 1ED22A791503E6FF006409BE /* SimpleNOAA */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* SimpleNOAA */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* SimpleNOAA */,
+		);
+		codeSenseManager = 1ED22A7E1503E71D006409BE /* Code sense */;
+		executables = (
+			1ED22A791503E6FF006409BE /* SimpleNOAA */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 352577279;
+			PBXWorkspaceStateSaveDate = 352577279;
+		};
+		sourceControlManager = 1ED22A7D1503E71D006409BE /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}
